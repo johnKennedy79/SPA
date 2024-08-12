@@ -1,0 +1,21 @@
+.App {
+  display: flex;
+  justify-content: space-between;
+  border: 1px red solid;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  column-gap: 1rem;
+  margin-right: 50%;
+}
+a {
+  text-decoration: none;
+  font-size: large;
+  font-weight: bold;
+  color: black;
+}
+a:hover {
+  color: blue;
+}
